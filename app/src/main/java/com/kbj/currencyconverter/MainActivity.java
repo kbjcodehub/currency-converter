@@ -28,7 +28,7 @@ public class MainActivity extends AppCompatActivity {
             Toast.makeText(this, "Converted Amount: " + rate * Integer.parseInt(amountEditText.getText().toString()), Toast.LENGTH_LONG).show();
         } catch (NumberFormatException e) {
             e.printStackTrace();
-            Toast.makeText(this, "input format error", Toast.LENGTH_LONG).show();
+            Toast.makeText(this, "Input Format Error", Toast.LENGTH_LONG).show();
         }
     }
 }
